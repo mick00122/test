@@ -1,0 +1,1102 @@
+2016-12-06 07:28:32 12792 1 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:28:32 12792 1 Status: Connection established, waiting for welcome message...
+2016-12-06 07:28:32 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:32 12792 1 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:28:32 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:32 12792 1 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:28:32 12792 1 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:28:32 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:32 12792 1 Command: AUTH TLS
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:33 12792 1 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:33 12792 1 Command: AUTH SSL
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:33 12792 1 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:33 12792 1 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:33 12792 1 Command: USER anonymous
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:33 12792 1 Response: 331 Password required for anonymous
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:33 12792 1 Command: PASS **************
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:33 12792 1 Response: 530 Login or password incorrect!
+2016-12-06 07:28:33 12792 1 Trace: CControlSocket::DoClose(1094)
+2016-12-06 07:28:33 12792 1 Trace: CFtpControlSocket::ResetOperation(1094)
+2016-12-06 07:28:33 12792 1 Trace: CControlSocket::ResetOperation(1094)
+2016-12-06 07:28:33 12792 1 Error: Critical error: Could not connect to server
+2016-12-06 07:28:33 12792 1 Trace: CFileZillaEnginePrivate::ResetOperation(1094)
+2016-12-06 07:28:39 12792 1 Status: Disconnected from server
+2016-12-06 07:28:39 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:28:39 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:28:39 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:28:39 12792 1 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:28:39 12792 1 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:28:39 12792 1 Status: Connection established, waiting for welcome message...
+2016-12-06 07:28:39 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:39 12792 1 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:28:39 12792 1 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:28:39 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:39 12792 1 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:28:39 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:39 12792 1 Command: AUTH TLS
+2016-12-06 07:28:39 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:39 12792 1 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:39 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:39 12792 1 Command: AUTH SSL
+2016-12-06 07:28:40 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:40 12792 1 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:40 12792 1 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:28:40 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:40 12792 1 Command: USER mickl
+2016-12-06 07:28:40 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:40 12792 1 Response: 331 Password required for mickl
+2016-12-06 07:28:40 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:40 12792 1 Command: PASS ******
+2016-12-06 07:28:40 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:40 12792 1 Response: 530 Login or password incorrect!
+2016-12-06 07:28:40 12792 1 Trace: CControlSocket::DoClose(1094)
+2016-12-06 07:28:40 12792 1 Trace: CFtpControlSocket::ResetOperation(1094)
+2016-12-06 07:28:40 12792 1 Trace: CControlSocket::ResetOperation(1094)
+2016-12-06 07:28:40 12792 1 Error: Critical error: Could not connect to server
+2016-12-06 07:28:40 12792 1 Trace: CFileZillaEnginePrivate::ResetOperation(1094)
+2016-12-06 07:28:45 12792 1 Status: Disconnected from server
+2016-12-06 07:28:45 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:28:45 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:28:45 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:28:45 12792 1 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:28:45 12792 1 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:28:45 12792 1 Status: Connection established, waiting for welcome message...
+2016-12-06 07:28:45 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:45 12792 1 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:28:45 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:45 12792 1 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:28:45 12792 1 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:28:45 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:45 12792 1 Command: AUTH TLS
+2016-12-06 07:28:45 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:45 12792 1 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:45 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:45 12792 1 Command: AUTH SSL
+2016-12-06 07:28:45 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:45 12792 1 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:45 12792 1 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:28:45 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:45 12792 1 Command: USER mick
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:46 12792 1 Response: 331 Password required for mick
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:46 12792 1 Command: PASS ******
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:46 12792 1 Response: 230 Logged on
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:46 12792 1 Command: SYST
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:46 12792 1 Response: 215 UNIX emulated by FileZilla
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:46 12792 1 Command: FEAT
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:46 12792 1 Response: 211-Features:
+2016-12-06 07:28:46 12792 1 Response:  MDTM
+2016-12-06 07:28:46 12792 1 Response:  REST STREAM
+2016-12-06 07:28:46 12792 1 Response:  SIZE
+2016-12-06 07:28:46 12792 1 Response:  MLST type*;size*;modify*;
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:46 12792 1 Response:  MLSD
+2016-12-06 07:28:46 12792 1 Response:  UTF8
+2016-12-06 07:28:46 12792 1 Response:  CLNT
+2016-12-06 07:28:46 12792 1 Response:  MFMT
+2016-12-06 07:28:46 12792 1 Response: 211 End
+2016-12-06 07:28:46 12792 1 Status: Logged in
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:28:46 12792 1 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:28:46 12792 1 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:28:46 12792 1 Trace: Measured latency of 177 ms
+2016-12-06 07:28:46 12792 1 Status: Retrieving directory listing...
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::ChangeDirSend()
+2016-12-06 07:28:46 12792 1 Command: PWD
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:46 12792 1 Response: 257 "/" is current directory.
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:28:46 12792 1 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:28:46 12792 1 Trace:   state = 1
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:28:46 12792 1 Trace:   state = 1
+2016-12-06 07:28:46 12792 1 Command: TYPE I
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:46 12792 1 Response: 200 Type set to I
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:28:46 12792 1 Trace:   code = 2
+2016-12-06 07:28:46 12792 1 Trace:   state = 1
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:46 12792 1 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:28:46 12792 1 Trace:   state = 2
+2016-12-06 07:28:46 12792 1 Command: PASV
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:47 12792 1 Response: 227 Entering Passive Mode (10,0,1,138,15,96)
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:28:47 12792 1 Trace:   code = 2
+2016-12-06 07:28:47 12792 1 Trace:   state = 2
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:28:47 12792 1 Trace:   state = 4
+2016-12-06 07:28:47 12792 1 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:28:47 12792 1 Command: MLSD
+2016-12-06 07:28:47 12792 1 Trace: CTransferSocket::OnConnect
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:47 12792 1 Response: 150 Connection accepted
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:28:47 12792 1 Trace:   code = 1
+2016-12-06 07:28:47 12792 1 Trace:   state = 4
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:28:47 12792 1 Trace:   state = 5
+2016-12-06 07:28:47 12792 1 Response: 226 Transfer OK
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:28:47 12792 1 Trace:   code = 2
+2016-12-06 07:28:47 12792 1 Trace:   state = 5
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:28:47 12792 1 Trace:   state = 8
+2016-12-06 07:28:47 12792 1 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20151218201413; $RECYCLE.BIN
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20150527035609; 10.3.31.22 Backup
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161115020804;size=51712; 1D30-20161115_mick.xls
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161129051920;size=52736; 1D30-20161129_mick.xls
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161101082155;size=20992; 2010_HQ Edge Switch 更換統計表.xls
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161101112223;size=19968; 2016_HQ Edge Switch 統計表.xls
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20150602011131; a507acdf449109322dddc343f8b3
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20140902074515; Analytics
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20141127051933; Aten
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161110091234;size=178938; ATEN VPN登入SOP.docx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161101082226;size=10021; Book24.xlsx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161122035721;size=10326; Book6.xlsx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161116083723;size=50162; CA網路架構.gliffy
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161125181551;size=1644; CCLicenseMailFailure.rar
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20150527052207; CheckPoint
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20130313034126;size=74422; client.xml
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20141217075634; cpdb2web_B983000003_1
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20141102151714;size=391239; cpmonitor
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20150702013323;size=6456; devices_bookmark.htm
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20150325091449;size=12800; dhcploc.exe
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160705103735; dig
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160818015036; Firewall Backup
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20161102054349; iperf-2.0.5-3-win32
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160812053831; ISO
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20150309064958; JeffChung
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20130902060714; Linux
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20161124024942; log
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161028051712;size=411136; mick IIP VPN.doc
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161114050614;size=244; new 50.txt
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20130912082939; Notes
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20150907060232;size=3670016000; pagefile.sys
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206023505;size=70405; proxy.cap
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20150415100951; PRTG Network Monitor
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161111080730;size=12376619; ps-pulse-mac-5.2r5.1-b897-installer.dmg
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161111081746;size=12291837; ps-pulse-mac-5.2r5.1-b897-installer.dmg.zip
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20160624165539;size=10906; Public IP mapping_20160624.xlsx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161124035021;size=6038; RDVMwhitelist.txt
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160511014731; RFC
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160509072745; sap
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161102034140;size=1558066; setup.exe
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160811100937; Software
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20150531042007; Solarwind Source
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20150603011320; Solarwinds
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20150803033457;size=3986; startup.cfg
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20161122020258; Switch Backup
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161104015106;size=3632656; sysinfo.txt
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160709055407; System Volume Information
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20161203144551; TEMP
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20130912083158;size=4096; Thumbs.db
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20161205164914; tmp
+2016-12-06 07:28:47 12792 1 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160712035130; todolist
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161103012658;size=94587; ts01
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206152553;size=64246444; untangle_1110_x32.iso
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206150054;size=92384840; Winre.wim
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20160816042144;size=4096; ~$$loop network.~vsd
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206095322;size=162; ~$大陸Android VPN使用手冊.docx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206093658;size=162; ~$大陸iOS VPN使用手冊.docx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161123033349;size=165; ~$大陸聯絡資料.xlsx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206113409;size=1946618; 中國大陸Android VPN使用手冊.docx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206092831;size=1212527; 中國大陸iOS VPN使用手冊.docx
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160721074331; 出差
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161123013319;size=3350068; 合約終止協議書_V1.3(ATEN).pdf
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161130083617;size=724026; 大陸地區手機跨國連網方式比較.pptx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161122035649;size=9005; 大陸聯絡資料.xlsx
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20150522141845;size=34225865728; 我的備份.tib
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160826065730; 新增資料夾
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20161004061437; 新增資料夾 (2)
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161109080454;size=1594880; 核心交換器改善報告.ppt
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161205063956;size=22078; 網路參數異動申請表.pdf
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161206034421;size=53248; 複本 1D30-20161206.xls
+2016-12-06 07:28:47 12792 1 Listing: type=dir;modify=20160531085627; 視訊POC
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161028084159;size=2662953; 遠傳MPLS退租.pdf
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161201095020;size=249344; 遠傳線路申請書.doc
+2016-12-06 07:28:47 12792 1 Listing: type=file;modify=20161122050511;size=17249; 防火牆政策異動表.xlsx
+2016-12-06 07:28:47 12792 1 Trace: CTransferSocket::OnClose(0)
+2016-12-06 07:28:47 12792 1 Trace: CTransferSocket::TransferEnd(1)
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::TransferEnd()
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:28:47 12792 1 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:28:47 12792 1 Trace:   state = 3
+2016-12-06 07:28:47 12792 1 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:28:47 12792 1 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:28:47 12792 1 Status: Directory listing of "/" successful
+2016-12-06 07:28:47 12792 1 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:28:56 12792 3 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:28:56 12792 3 Status: Connection established, waiting for welcome message...
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:56 12792 3 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:56 12792 3 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:28:56 12792 3 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:56 12792 3 Command: AUTH TLS
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:56 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:56 12792 3 Command: AUTH SSL
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:56 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:28:56 12792 3 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:56 12792 3 Command: USER mick
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:56 12792 3 Response: 331 Password required for mick
+2016-12-06 07:28:56 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:56 12792 3 Command: PASS ******
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:57 12792 3 Response: 230 Logged on
+2016-12-06 07:28:57 12792 3 Status: Logged in
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:28:57 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:28:57 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:28:57 12792 3 Trace: Measured latency of 170 ms
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::FileTransfer()
+2016-12-06 07:28:57 12792 3 Status: Starting upload of C:\Recovery\6660cabb-9be2-11e1-8434-d9349e7122b3\Winre.wim
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::ChangeDirSend()
+2016-12-06 07:28:57 12792 3 Command: CWD /
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:57 12792 3 Response: 250 CWD successful. "/" is current directory.
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::ChangeDirSend()
+2016-12-06 07:28:57 12792 3 Command: PWD
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:57 12792 3 Response: 257 "/" is current directory.
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:28:57 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:28:57 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:28:57 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:28:59 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:59 12792 3 Trace: FileTransferSend()
+2016-12-06 07:28:59 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:59 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:28:59 12792 3 Trace:   state = 1
+2016-12-06 07:28:59 12792 3 Command: TYPE I
+2016-12-06 07:28:59 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:28:59 12792 3 Response: 200 Type set to I
+2016-12-06 07:28:59 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:28:59 12792 3 Trace:   code = 2
+2016-12-06 07:28:59 12792 3 Trace:   state = 1
+2016-12-06 07:28:59 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:28:59 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:28:59 12792 3 Trace:   state = 2
+2016-12-06 07:28:59 12792 3 Command: PASV
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:00 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,97)
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:00 12792 3 Trace:   code = 2
+2016-12-06 07:29:00 12792 3 Trace:   state = 2
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:00 12792 3 Trace:   state = 4
+2016-12-06 07:29:00 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:29:00 12792 3 Command: STOR Winre.wim
+2016-12-06 07:29:00 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:29:00 12792 3 Trace: First EAGAIN in CTransferSocket::OnSend()
+2016-12-06 07:29:00 12792 3 Trace: Made progress in CTransferSocket::OnSend()
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:00 12792 3 Response: 150 Connection accepted
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:00 12792 3 Trace:   code = 1
+2016-12-06 07:29:00 12792 3 Trace:   state = 4
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:00 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:00 12792 3 Trace:   state = 5
+2016-12-06 07:29:21 12792 3 Error: Connection timed out after 20 seconds of inactivity
+2016-12-06 07:29:21 12792 3 Trace: CControlSocket::DoClose(2050)
+2016-12-06 07:29:21 12792 3 Trace: CFtpControlSocket::ResetOperation(2114)
+2016-12-06 07:29:21 12792 3 Trace: CControlSocket::ResetOperation(2114)
+2016-12-06 07:29:21 12792 3 Trace: CFtpControlSocket::ResetOperation(2114)
+2016-12-06 07:29:21 12792 3 Trace: CControlSocket::ResetOperation(2114)
+2016-12-06 07:29:21 12792 3 Error: File transfer failed after transferring 119,013,376 bytes in 21 seconds
+2016-12-06 07:29:21 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(2114)
+2016-12-06 07:29:21 12792 3 Status: Disconnected from server
+2016-12-06 07:29:21 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:29:21 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:29:21 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:29:21 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:29:21 12792 3 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:29:21 12792 3 Status: Connection established, waiting for welcome message...
+2016-12-06 07:29:21 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:21 12792 3 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:29:21 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:21 12792 3 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:29:21 12792 3 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:29:21 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:21 12792 3 Command: AUTH TLS
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:22 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:22 12792 3 Command: AUTH SSL
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:22 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:29:22 12792 3 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:22 12792 3 Command: USER mick
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:22 12792 3 Response: 331 Password required for mick
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:22 12792 3 Command: PASS ******
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:22 12792 3 Response: 230 Logged on
+2016-12-06 07:29:22 12792 3 Status: Logged in
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:22 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:22 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:29:22 12792 3 Trace: Measured latency of 188 ms
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::FileTransfer()
+2016-12-06 07:29:22 12792 3 Status: Starting upload of C:\Recovery\6660cabb-9be2-11e1-8434-d9349e7122b3\Winre.wim
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::ChangeDirSend()
+2016-12-06 07:29:22 12792 3 Command: CWD /
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:22 12792 3 Response: 250 CWD successful. "/" is current directory.
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:22 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:22 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:29:22 12792 3 Status: Retrieving directory listing of "/"...
+2016-12-06 07:29:22 12792 3 Trace: ftpcontrolsocket.cpp(1346): List called from other command   caller=0x5479450
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:29:22 12792 3 Trace:   state = 1
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:22 12792 3 Trace:   state = 1
+2016-12-06 07:29:22 12792 3 Command: TYPE I
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:22 12792 3 Response: 200 Type set to I
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:22 12792 3 Trace:   code = 2
+2016-12-06 07:29:22 12792 3 Trace:   state = 1
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:22 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:22 12792 3 Trace:   state = 2
+2016-12-06 07:29:22 12792 3 Command: PASV
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:23 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,99)
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:23 12792 3 Trace:   code = 2
+2016-12-06 07:29:23 12792 3 Trace:   state = 2
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:23 12792 3 Trace:   state = 4
+2016-12-06 07:29:23 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:29:23 12792 3 Command: MLSD
+2016-12-06 07:29:23 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:23 12792 3 Response: 150 Connection accepted
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:23 12792 3 Trace:   code = 1
+2016-12-06 07:29:23 12792 3 Trace:   state = 4
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:23 12792 3 Trace:   state = 5
+2016-12-06 07:29:23 12792 3 Response: 226 Transfer OK
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:23 12792 3 Trace:   code = 2
+2016-12-06 07:29:23 12792 3 Trace:   state = 5
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:23 12792 3 Trace:   state = 8
+2016-12-06 07:29:23 12792 3 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20151218201413; $RECYCLE.BIN
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20150527035609; 10.3.31.22 Backup
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161115020804;size=51712; 1D30-20161115_mick.xls
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161129051920;size=52736; 1D30-20161129_mick.xls
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161101082155;size=20992; 2010_HQ Edge Switch 更換統計表.xls
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161101112223;size=19968; 2016_HQ Edge Switch 統計表.xls
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20150602011131; a507acdf449109322dddc343f8b3
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20140902074515; Analytics
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20141127051933; Aten
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161110091234;size=178938; ATEN VPN登入SOP.docx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161101082226;size=10021; Book24.xlsx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161122035721;size=10326; Book6.xlsx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161116083723;size=50162; CA網路架構.gliffy
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161125181551;size=1644; CCLicenseMailFailure.rar
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20150527052207; CheckPoint
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20130313034126;size=74422; client.xml
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20141217075634; cpdb2web_B983000003_1
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20141102151714;size=391239; cpmonitor
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20150702013323;size=6456; devices_bookmark.htm
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20150325091449;size=12800; dhcploc.exe
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160705103735; dig
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160818015036; Firewall Backup
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20161102054349; iperf-2.0.5-3-win32
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160812053831; ISO
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20150309064958; JeffChung
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20130902060714; Linux
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20161124024942; log
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161028051712;size=411136; mick IIP VPN.doc
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161114050614;size=244; new 50.txt
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20130912082939; Notes
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20150907060232;size=3670016000; pagefile.sys
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206023505;size=70405; proxy.cap
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20150415100951; PRTG Network Monitor
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161111080730;size=12376619; ps-pulse-mac-5.2r5.1-b897-installer.dmg
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161111081746;size=12291837; ps-pulse-mac-5.2r5.1-b897-installer.dmg.zip
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20160624165539;size=10906; Public IP mapping_20160624.xlsx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161124035021;size=6038; RDVMwhitelist.txt
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160511014731; RFC
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160509072745; sap
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161102034140;size=1558066; setup.exe
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160811100937; Software
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20150531042007; Solarwind Source
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20150603011320; Solarwinds
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20150803033457;size=3986; startup.cfg
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20161122020258; Switch Backup
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161104015106;size=3632656; sysinfo.txt
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160709055407; System Volume Information
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20161203144551; TEMP
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20130912083158;size=4096; Thumbs.db
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20161205164914; tmp
+2016-12-06 07:29:23 12792 3 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160712035130; todolist
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161103012658;size=94587; ts01
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206152553;size=64246444; untangle_1110_x32.iso
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206152657;size=94118000; Winre.wim
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20160816042144;size=4096; ~$$loop network.~vsd
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206095322;size=162; ~$大陸Android VPN使用手冊.docx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206093658;size=162; ~$大陸iOS VPN使用手冊.docx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161123033349;size=165; ~$大陸聯絡資料.xlsx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206113409;size=1946618; 中國大陸Android VPN使用手冊.docx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206092831;size=1212527; 中國大陸iOS VPN使用手冊.docx
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160721074331; 出差
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161123013319;size=3350068; 合約終止協議書_V1.3(ATEN).pdf
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161130083617;size=724026; 大陸地區手機跨國連網方式比較.pptx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161122035649;size=9005; 大陸聯絡資料.xlsx
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20150522141845;size=34225865728; 我的備份.tib
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160826065730; 新增資料夾
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20161004061437; 新增資料夾 (2)
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161109080454;size=1594880; 核心交換器改善報告.ppt
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161205063956;size=22078; 網路參數異動申請表.pdf
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161206034421;size=53248; 複本 1D30-20161206.xls
+2016-12-06 07:29:23 12792 3 Listing: type=dir;modify=20160531085627; 視訊POC
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161028084159;size=2662953; 遠傳MPLS退租.pdf
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161201095020;size=249344; 遠傳線路申請書.doc
+2016-12-06 07:29:23 12792 3 Listing: type=file;modify=20161122050511;size=17249; 防火牆政策異動表.xlsx
+2016-12-06 07:29:23 12792 3 Trace: CTransferSocket::TransferEnd(1)
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferEnd()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:23 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:29:23 12792 3 Trace:   state = 3
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:23 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:23 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:23 12792 3 Trace: FileTransferSend()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:23 12792 3 Trace:   state = 2
+2016-12-06 07:29:23 12792 3 Command: PASV
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:23 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,100)
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:23 12792 3 Trace:   code = 2
+2016-12-06 07:29:23 12792 3 Trace:   state = 2
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:23 12792 3 Trace:   state = 3
+2016-12-06 07:29:23 12792 3 Command: REST 94118000
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:23 12792 3 Response: 350 Rest supported. Restarting at 94118000
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:23 12792 3 Trace:   code = 3
+2016-12-06 07:29:23 12792 3 Trace:   state = 3
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:23 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:23 12792 3 Trace:   state = 4
+2016-12-06 07:29:23 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:29:23 12792 3 Command: STOR Winre.wim
+2016-12-06 07:29:24 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:29:24 12792 3 Trace: First EAGAIN in CTransferSocket::OnSend()
+2016-12-06 07:29:24 12792 3 Trace: Made progress in CTransferSocket::OnSend()
+2016-12-06 07:29:24 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:24 12792 3 Response: 150 Connection accepted, restarting at offset 94118000
+2016-12-06 07:29:24 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:24 12792 3 Trace:   code = 1
+2016-12-06 07:29:24 12792 3 Trace:   state = 4
+2016-12-06 07:29:24 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:24 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:24 12792 3 Trace:   state = 5
+2016-12-06 07:29:44 12792 3 Error: Connection timed out after 20 seconds of inactivity
+2016-12-06 07:29:44 12792 3 Trace: CControlSocket::DoClose(2050)
+2016-12-06 07:29:44 12792 3 Trace: CFtpControlSocket::ResetOperation(2114)
+2016-12-06 07:29:44 12792 3 Trace: CControlSocket::ResetOperation(2114)
+2016-12-06 07:29:44 12792 3 Trace: CFtpControlSocket::ResetOperation(2114)
+2016-12-06 07:29:44 12792 3 Trace: CControlSocket::ResetOperation(2114)
+2016-12-06 07:29:44 12792 3 Error: File transfer failed after transferring 18,087,936 bytes in 20 seconds
+2016-12-06 07:29:44 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(2114)
+2016-12-06 07:29:44 12792 3 Status: Disconnected from server
+2016-12-06 07:29:44 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:29:44 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:29:44 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:29:44 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:29:44 12792 3 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:29:44 12792 3 Status: Connection established, waiting for welcome message...
+2016-12-06 07:29:44 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:44 12792 3 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:29:44 12792 3 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:29:44 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:44 12792 3 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:29:44 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:44 12792 3 Command: AUTH TLS
+2016-12-06 07:29:44 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:44 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:29:44 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:44 12792 3 Command: AUTH SSL
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:45 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:29:45 12792 3 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:45 12792 3 Command: USER mick
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:45 12792 3 Response: 331 Password required for mick
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:45 12792 3 Command: PASS ******
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:45 12792 3 Response: 230 Logged on
+2016-12-06 07:29:45 12792 3 Status: Logged in
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:45 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:45 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:29:45 12792 3 Trace: Measured latency of 170 ms
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::FileTransfer()
+2016-12-06 07:29:45 12792 3 Status: Starting upload of C:\Recovery\6660cabb-9be2-11e1-8434-d9349e7122b3\Winre.wim
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::ChangeDirSend()
+2016-12-06 07:29:45 12792 3 Command: CWD /
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:45 12792 3 Response: 250 CWD successful. "/" is current directory.
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:45 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:45 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:29:45 12792 3 Status: Retrieving directory listing of "/"...
+2016-12-06 07:29:45 12792 3 Trace: ftpcontrolsocket.cpp(1346): List called from other command   caller=0x54864d0
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:29:45 12792 3 Trace:   state = 1
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:45 12792 3 Trace:   state = 1
+2016-12-06 07:29:45 12792 3 Command: TYPE I
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:45 12792 3 Response: 200 Type set to I
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:45 12792 3 Trace:   code = 2
+2016-12-06 07:29:45 12792 3 Trace:   state = 1
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:45 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:45 12792 3 Trace:   state = 2
+2016-12-06 07:29:45 12792 3 Command: PASV
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:46 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,101)
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:46 12792 3 Trace:   code = 2
+2016-12-06 07:29:46 12792 3 Trace:   state = 2
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:46 12792 3 Trace:   state = 4
+2016-12-06 07:29:46 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:29:46 12792 3 Command: MLSD
+2016-12-06 07:29:46 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:46 12792 3 Response: 150 Connection accepted
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:46 12792 3 Trace:   code = 1
+2016-12-06 07:29:46 12792 3 Trace:   state = 4
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:46 12792 3 Trace:   state = 5
+2016-12-06 07:29:46 12792 3 Response: 226 Transfer OK
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:46 12792 3 Trace:   code = 2
+2016-12-06 07:29:46 12792 3 Trace:   state = 5
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:46 12792 3 Trace:   state = 8
+2016-12-06 07:29:46 12792 3 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20151218201413; $RECYCLE.BIN
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20150527035609; 10.3.31.22 Backup
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161115020804;size=51712; 1D30-20161115_mick.xls
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161129051920;size=52736; 1D30-20161129_mick.xls
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161101082155;size=20992; 2010_HQ Edge Switch 更換統計表.xls
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161101112223;size=19968; 2016_HQ Edge Switch 統計表.xls
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20150602011131; a507acdf449109322dddc343f8b3
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20140902074515; Analytics
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20141127051933; Aten
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161110091234;size=178938; ATEN VPN登入SOP.docx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161101082226;size=10021; Book24.xlsx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161122035721;size=10326; Book6.xlsx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161116083723;size=50162; CA網路架構.gliffy
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161125181551;size=1644; CCLicenseMailFailure.rar
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20150527052207; CheckPoint
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20130313034126;size=74422; client.xml
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20141217075634; cpdb2web_B983000003_1
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20141102151714;size=391239; cpmonitor
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20150702013323;size=6456; devices_bookmark.htm
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20150325091449;size=12800; dhcploc.exe
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160705103735; dig
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160818015036; Firewall Backup
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20161102054349; iperf-2.0.5-3-win32
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160812053831; ISO
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20150309064958; JeffChung
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20130902060714; Linux
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20161124024942; log
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161028051712;size=411136; mick IIP VPN.doc
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161114050614;size=244; new 50.txt
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20130912082939; Notes
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20150907060232;size=3670016000; pagefile.sys
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206023505;size=70405; proxy.cap
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20150415100951; PRTG Network Monitor
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161111080730;size=12376619; ps-pulse-mac-5.2r5.1-b897-installer.dmg
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161111081746;size=12291837; ps-pulse-mac-5.2r5.1-b897-installer.dmg.zip
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20160624165539;size=10906; Public IP mapping_20160624.xlsx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161124035021;size=6038; RDVMwhitelist.txt
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160511014731; RFC
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160509072745; sap
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161102034140;size=1558066; setup.exe
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160811100937; Software
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20150531042007; Solarwind Source
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20150603011320; Solarwinds
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20150803033457;size=3986; startup.cfg
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20161122020258; Switch Backup
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161104015106;size=3632656; sysinfo.txt
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160709055407; System Volume Information
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20161203144551; TEMP
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20130912083158;size=4096; Thumbs.db
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20161205164914; tmp
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160712035130; todolist
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161103012658;size=94587; ts01
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206152553;size=64246444; untangle_1110_x32.iso
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206152720;size=96134312; Winre.wim
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20160816042144;size=4096; ~$$loop network.~vsd
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206095322;size=162; ~$大陸Android VPN使用手冊.docx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206093658;size=162; ~$大陸iOS VPN使用手冊.docx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161123033349;size=165; ~$大陸聯絡資料.xlsx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206113409;size=1946618; 中國大陸Android VPN使用手冊.docx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206092831;size=1212527; 中國大陸iOS VPN使用手冊.docx
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160721074331; 出差
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161123013319;size=3350068; 合約終止協議書_V1.3(ATEN).pdf
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161130083617;size=724026; 大陸地區手機跨國連網方式比較.pptx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161122035649;size=9005; 大陸聯絡資料.xlsx
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20150522141845;size=34225865728; 我的備份.tib
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160826065730; 新增資料夾
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20161004061437; 新增資料夾 (2)
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161109080454;size=1594880; 核心交換器改善報告.ppt
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161205063956;size=22078; 網路參數異動申請表.pdf
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161206034421;size=53248; 複本 1D30-20161206.xls
+2016-12-06 07:29:46 12792 3 Listing: type=dir;modify=20160531085627; 視訊POC
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161028084159;size=2662953; 遠傳MPLS退租.pdf
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161201095020;size=249344; 遠傳線路申請書.doc
+2016-12-06 07:29:46 12792 3 Listing: type=file;modify=20161122050511;size=17249; 防火牆政策異動表.xlsx
+2016-12-06 07:29:46 12792 3 Trace: CTransferSocket::TransferEnd(1)
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferEnd()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:46 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:29:46 12792 3 Trace:   state = 3
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:29:46 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:29:46 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:46 12792 3 Trace: FileTransferSend()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:46 12792 3 Trace:   state = 2
+2016-12-06 07:29:46 12792 3 Command: PASV
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:46 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,102)
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:46 12792 3 Trace:   code = 2
+2016-12-06 07:29:46 12792 3 Trace:   state = 2
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:46 12792 3 Trace:   state = 3
+2016-12-06 07:29:46 12792 3 Command: REST 96134312
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:46 12792 3 Response: 350 Rest supported. Restarting at 96134312
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:46 12792 3 Trace:   code = 3
+2016-12-06 07:29:46 12792 3 Trace:   state = 3
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:46 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:46 12792 3 Trace:   state = 4
+2016-12-06 07:29:46 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:29:46 12792 3 Command: STOR Winre.wim
+2016-12-06 07:29:47 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:29:47 12792 3 Trace: First EAGAIN in CTransferSocket::OnSend()
+2016-12-06 07:29:47 12792 3 Trace: Made progress in CTransferSocket::OnSend()
+2016-12-06 07:29:47 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:29:47 12792 3 Response: 150 Connection accepted, restarting at offset 96134312
+2016-12-06 07:29:47 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:29:47 12792 3 Trace:   code = 1
+2016-12-06 07:29:47 12792 3 Trace:   state = 4
+2016-12-06 07:29:47 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:29:47 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:29:47 12792 3 Trace:   state = 5
+2016-12-06 07:29:50 12792 3 Trace: CFtpControlSocket::ResetOperation(10)
+2016-12-06 07:29:50 12792 3 Trace: CControlSocket::ResetOperation(10)
+2016-12-06 07:29:50 12792 3 Trace: CFtpControlSocket::ResetOperation(10)
+2016-12-06 07:29:50 12792 3 Trace: CControlSocket::ResetOperation(10)
+2016-12-06 07:29:50 12792 3 Error: File transfer aborted by user after transferring 20,971,520 bytes in 3 seconds
+2016-12-06 07:29:50 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(10)
+2016-12-06 07:30:47 12792 1 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:30:47 12792 1 Response: 421 Connection timed out.
+2016-12-06 07:30:47 12792 1 Trace: Unexpected reply, no reply was pending.
+2016-12-06 07:30:47 12792 1 Status: Connection closed by server
+2016-12-06 07:30:47 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:30:47 12792 1 Trace: CFtpControlSocket::ResetOperation(66)
+2016-12-06 07:30:47 12792 1 Trace: CControlSocket::ResetOperation(66)
+2016-12-06 07:30:47 12792 1 Trace: CFileZillaEnginePrivate::ResetOperation(66)
+2016-12-06 07:30:50 12792 3 Status: Disconnected from server
+2016-12-06 07:30:50 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:30:50 12792 3 Trace: CFtpControlSocket::ResetOperation(66)
+2016-12-06 07:30:50 12792 3 Trace: CControlSocket::ResetOperation(66)
+2016-12-06 07:30:50 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(66)
+2016-12-06 07:30:50 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:30:50 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:30:50 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:35:23 12792 3 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:35:24 12792 3 Status: Connection established, waiting for welcome message...
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:24 12792 3 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:35:24 12792 3 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:24 12792 3 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:24 12792 3 Command: AUTH TLS
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:24 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:24 12792 3 Command: AUTH SSL
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:24 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:35:24 12792 3 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:24 12792 3 Command: USER mick
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:24 12792 3 Response: 331 Password required for mick
+2016-12-06 07:35:24 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:24 12792 3 Command: PASS ******
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:25 12792 3 Response: 230 Logged on
+2016-12-06 07:35:25 12792 3 Status: Logged in
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: Measured latency of 183 ms
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::FileTransfer()
+2016-12-06 07:35:25 12792 3 Status: Starting upload of C:\Recovery\6660cabb-9be2-11e1-8434-d9349e7122b3\Winre.wim
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ChangeDirSend()
+2016-12-06 07:35:25 12792 3 Command: CWD /
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:25 12792 3 Response: 250 CWD successful. "/" is current directory.
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:35:25 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:35:25 12792 3 Status: Retrieving directory listing of "/"...
+2016-12-06 07:35:25 12792 3 Trace: ftpcontrolsocket.cpp(1346): List called from other command   caller=0x54b8d80
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:35:25 12792 3 Trace:   state = 1
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:25 12792 3 Trace:   state = 1
+2016-12-06 07:35:25 12792 3 Command: TYPE I
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:25 12792 3 Response: 200 Type set to I
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:35:25 12792 3 Trace:   code = 2
+2016-12-06 07:35:25 12792 3 Trace:   state = 1
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:25 12792 3 Trace:   state = 2
+2016-12-06 07:35:25 12792 3 Command: PASV
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:25 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,117)
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:35:25 12792 3 Trace:   code = 2
+2016-12-06 07:35:25 12792 3 Trace:   state = 2
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:25 12792 3 Trace:   state = 4
+2016-12-06 07:35:25 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:35:25 12792 3 Command: MLSD
+2016-12-06 07:35:25 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:25 12792 3 Response: 150 Connection accepted
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:35:25 12792 3 Trace:   code = 1
+2016-12-06 07:35:25 12792 3 Trace:   state = 4
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:25 12792 3 Trace:   state = 5
+2016-12-06 07:35:25 12792 3 Response: 226 Transfer OK
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:35:25 12792 3 Trace:   code = 2
+2016-12-06 07:35:25 12792 3 Trace:   state = 5
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:25 12792 3 Trace:   state = 8
+2016-12-06 07:35:25 12792 3 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:35:25 12792 3 Trace: CTransferSocket::TransferEnd(1)
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::TransferEnd()
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:35:25 12792 3 Trace:   state = 3
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:35:25 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:35:25 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:29 12792 3 Trace: FileTransferSend()
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:29 12792 3 Trace:   state = 2
+2016-12-06 07:35:29 12792 3 Command: PASV
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:29 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,118)
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:35:29 12792 3 Trace:   code = 2
+2016-12-06 07:35:29 12792 3 Trace:   state = 2
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:29 12792 3 Trace:   state = 4
+2016-12-06 07:35:29 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:35:29 12792 3 Command: STOR Winre.wim
+2016-12-06 07:35:29 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:35:29 12792 3 Trace: First EAGAIN in CTransferSocket::OnSend()
+2016-12-06 07:35:29 12792 3 Trace: Made progress in CTransferSocket::OnSend()
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:35:29 12792 3 Response: 150 Connection accepted
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:35:29 12792 3 Trace:   code = 1
+2016-12-06 07:35:29 12792 3 Trace:   state = 4
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:35:29 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:35:29 12792 3 Trace:   state = 5
+2016-12-06 07:40:28 12792 3 Trace: CTransferSocket::OnClose(0)
+2016-12-06 07:40:28 12792 3 Trace: CTransferSocket::TransferEnd(3)
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:28 12792 3 Response: 421 Kicked by Administrator
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:28 12792 3 Trace:   code = 4
+2016-12-06 07:40:28 12792 3 Trace:   state = 5
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::ResetOperation(2)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::ResetOperation(2)
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(2)
+2016-12-06 07:40:28 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::ResetOperation(2)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::ResetOperation(2)
+2016-12-06 07:40:28 12792 3 Error: File transfer failed after transferring 151,257,088 bytes in 299 seconds
+2016-12-06 07:40:28 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(2)
+2016-12-06 07:40:28 12792 3 Error: Connection closed by server
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::ResetOperation(66)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::ResetOperation(66)
+2016-12-06 07:40:28 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(66)
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::TransferEnd()
+2016-12-06 07:40:28 12792 3 Trace: Call to TransferEnd at unusual time, ignoring
+2016-12-06 07:40:28 12792 3 Status: Disconnected from server
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:40:28 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:40:28 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(514)
+2016-12-06 07:40:28 12792 3 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:40:28 12792 3 Status: Disconnected from server
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:40:28 12792 3 Trace: CFtpControlSocket::ResetOperation(66)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::ResetOperation(66)
+2016-12-06 07:40:28 12792 3 Error: Could not connect to server
+2016-12-06 07:40:28 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(66)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:40:28 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:40:28 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:40:28 12792 3 Status: Connecting to 10.0.1.138:21...
+2016-12-06 07:40:29 12792 3 Status: Connection established, waiting for welcome message...
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:29 12792 3 Response: 220-FileZilla Server version 0.9.41 beta
+2016-12-06 07:40:29 12792 3 Response: 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+2016-12-06 07:40:29 12792 3 Response: 220 Please visit http://sourceforge.net/projects/filezilla/
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:29 12792 3 Command: AUTH TLS
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:29 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:29 12792 3 Command: AUTH SSL
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:29 12792 3 Response: 502 SSL/TLS authentication not allowed
+2016-12-06 07:40:29 12792 3 Status: Insecure server, it does not support FTP over TLS.
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:29 12792 3 Command: USER mick
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:29 12792 3 Response: 331 Password required for mick
+2016-12-06 07:40:29 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:29 12792 3 Command: PASS ******
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:30 12792 3 Response: 230 Logged on
+2016-12-06 07:40:30 12792 3 Status: Logged in
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:40:30 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:40:30 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(0)
+2016-12-06 07:40:30 12792 3 Trace: Measured latency of 191 ms
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::FileTransfer()
+2016-12-06 07:40:30 12792 3 Status: Starting upload of C:\Recovery\6660cabb-9be2-11e1-8434-d9349e7122b3\Winre.wim
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::ChangeDirSend()
+2016-12-06 07:40:30 12792 3 Command: CWD /
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:30 12792 3 Response: 250 CWD successful. "/" is current directory.
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:40:30 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:40:30 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:40:30 12792 3 Status: Retrieving directory listing of "/"...
+2016-12-06 07:40:30 12792 3 Trace: ftpcontrolsocket.cpp(1346): List called from other command   caller=0x54b8d80
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:40:30 12792 3 Trace:   state = 1
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:30 12792 3 Trace:   state = 1
+2016-12-06 07:40:30 12792 3 Command: TYPE I
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:30 12792 3 Response: 200 Type set to I
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:30 12792 3 Trace:   code = 2
+2016-12-06 07:40:30 12792 3 Trace:   state = 1
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:30 12792 3 Trace:   state = 2
+2016-12-06 07:40:30 12792 3 Command: PASV
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:30 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,148)
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:30 12792 3 Trace:   code = 2
+2016-12-06 07:40:30 12792 3 Trace:   state = 2
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:30 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:30 12792 3 Trace:   state = 4
+2016-12-06 07:40:30 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:40:30 12792 3 Command: MLSD
+2016-12-06 07:40:30 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:31 12792 3 Response: 150 Connection accepted
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:31 12792 3 Trace:   code = 1
+2016-12-06 07:40:31 12792 3 Trace:   state = 4
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:31 12792 3 Trace:   state = 5
+2016-12-06 07:40:31 12792 3 Response: 226 Transfer OK
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:31 12792 3 Trace:   code = 2
+2016-12-06 07:40:31 12792 3 Trace:   state = 5
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:31 12792 3 Trace:   state = 8
+2016-12-06 07:40:31 12792 3 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:40:31 12792 3 Trace: CTransferSocket::OnReceive(), m_transferMode=0
+2016-12-06 07:40:31 12792 3 Trace: CTransferSocket::OnClose(0)
+2016-12-06 07:40:31 12792 3 Trace: CTransferSocket::TransferEnd(1)
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferEnd()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:40:31 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::ListSubcommandResult()
+2016-12-06 07:40:31 12792 3 Trace:   state = 3
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::ResetOperation(0)
+2016-12-06 07:40:31 12792 3 Trace: CControlSocket::ResetOperation(0)
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::ParseSubcommandResult(0)
+2016-12-06 07:40:31 12792 3 Trace: FileTransferSubcommandResult()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:31 12792 3 Trace: FileTransferSend()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:31 12792 3 Trace:   state = 2
+2016-12-06 07:40:31 12792 3 Command: PASV
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:31 12792 3 Response: 227 Entering Passive Mode (10,0,1,138,15,149)
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:31 12792 3 Trace:   code = 2
+2016-12-06 07:40:31 12792 3 Trace:   state = 2
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:31 12792 3 Trace:   state = 3
+2016-12-06 07:40:31 12792 3 Command: REST 135502968
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:31 12792 3 Response: 350 Rest supported. Restarting at 135502968
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:31 12792 3 Trace:   code = 3
+2016-12-06 07:40:31 12792 3 Trace:   state = 3
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:31 12792 3 Trace:   state = 4
+2016-12-06 07:40:31 12792 3 Trace: Binding data connection source IP to control connection source IP 10.0.0.29
+2016-12-06 07:40:31 12792 3 Command: STOR Winre.wim
+2016-12-06 07:40:31 12792 3 Trace: CTransferSocket::OnConnect
+2016-12-06 07:40:31 12792 3 Trace: First EAGAIN in CTransferSocket::OnSend()
+2016-12-06 07:40:31 12792 3 Trace: Made progress in CTransferSocket::OnSend()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::OnReceive()
+2016-12-06 07:40:31 12792 3 Response: 150 Connection accepted, restarting at offset 135502968
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferParseResponse()
+2016-12-06 07:40:31 12792 3 Trace:   code = 1
+2016-12-06 07:40:31 12792 3 Trace:   state = 4
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::SendNextCommand()
+2016-12-06 07:40:31 12792 3 Trace: CFtpControlSocket::TransferSend()
+2016-12-06 07:40:31 12792 3 Trace:   state = 5
+2016-12-06 07:41:19 12792 3 Trace: CFtpControlSocket::ResetOperation(10)
+2016-12-06 07:41:19 12792 3 Trace: CControlSocket::ResetOperation(10)
+2016-12-06 07:41:19 12792 3 Trace: CFtpControlSocket::ResetOperation(10)
+2016-12-06 07:41:19 12792 3 Trace: CControlSocket::ResetOperation(10)
+2016-12-06 07:41:19 12792 3 Error: File transfer aborted by user after transferring 22,020,096 bytes in 48 seconds
+2016-12-06 07:41:19 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(10)
+2016-12-06 07:41:27 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:41:27 12792 3 Trace: CFtpControlSocket::ResetOperation(66)
+2016-12-06 07:41:27 12792 3 Trace: CControlSocket::ResetOperation(66)
+2016-12-06 07:41:27 12792 3 Trace: CFileZillaEnginePrivate::ResetOperation(66)
+2016-12-06 07:41:27 12792 3 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:41:27 12792 1 Trace: CControlSocket::DoClose(64)
+2016-12-06 07:41:27 12792 1 Trace: CControlSocket::DoClose(64)
